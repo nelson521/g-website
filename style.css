@@ -94,6 +94,7 @@ a:hover {
   display: flex;
   margin: 5rem 2rem;
 }
+
 .info-section img {
   border-radius: 4px;
   width: 50%;
@@ -112,6 +113,41 @@ a:hover {
   font-size: 1.3rem;
 }
 
+/* Footer */
+footer {
+  background-color: rgb(247, 247, 90);
+  padding: 3rem;
+}
+
+footer h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+footer .social-media {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+footer .social-media a {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+footer .social-media a:hover {
+  color: rgb(99, 99, 99);
+}
+
 /* Hero Animations */
 
 @keyframes fade-slide-down {
@@ -125,3 +161,5 @@ a:hover {
     transform: none;
   }
 }
+
+/* Mobile */
