@@ -41,7 +41,7 @@ a:hover {
 
 /* Hero Section */
 .hero-section {
-  background-image: url('/img/Screenshot_20220413-122543_Instagram.jpg');
+  background-image: url('./img/Screenshot_20220413-122543_Instagram.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
