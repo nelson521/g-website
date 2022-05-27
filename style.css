@@ -18,9 +18,9 @@ a {
   transition: color 0.5s;
 }
 
-a:hover {
+/* a:hover {
   color: rgb(228, 228, 82);
-}
+} */
 
 /* Nav */
 
@@ -28,6 +28,10 @@ a:hover {
   display: flex;
   justify-content: space-around;
   margin: 0.5rem 0;
+}
+
+.nav-container a:hover {
+  color: rgb(228, 228, 82);
 }
 
 .nav-container ul {
@@ -86,6 +90,27 @@ a:hover {
   font-weight: lighter;
   line-height: 1.5;
   z-index: 1;
+}
+
+.btn {
+  background-color: rgb(247, 247, 90);
+  margin-top: 1rem;
+  padding: 1rem;
+  color: black;
+  border: none;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transition: color 1s;
+}
+
+.btn a:hover {
+  color: black;
+  transition: color 0.5s;
 }
 
 /* Info Section */
