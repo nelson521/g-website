@@ -80,8 +80,9 @@ a {
 }
 
 .hero-text h1 {
-  font-size: 4rem;
-  font-weight: lighter;
+  font-size: 6rem;
+  font-weight: bolder;
+  letter-spacing: 5px;
   z-index: 1;
 }
 
